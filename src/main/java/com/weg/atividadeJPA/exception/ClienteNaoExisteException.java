@@ -1,0 +1,9 @@
+package com.weg.atividadeJPA.exception;
+
+public class ClienteNaoExisteException extends RuntimeException{
+     public ClienteNaoExisteException(){
+            super("Cliente não encontrado!");
+        }
+    }
+
+
