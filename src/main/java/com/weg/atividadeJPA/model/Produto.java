@@ -1,12 +1,10 @@
 package com.weg.atividadeJPA.model;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Table;
-import jakarta.validation.GroupSequence;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Positive;
+import jakarta.validation.constraints.PositiveOrZero;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 
@@ -17,22 +15,26 @@ import org.springframework.data.annotation.Id;
 @Getter
 @Table(name = "usuarios")
 
-public class Usuario {
+public class Produto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
 
-
+    @Column(name = "nome_produto", nullable = false)
     private String nome;
 
-
+    @Column(length = 100)
     private String descricao;
 
+
+    @Positive(message = "O preço deve ser positivo")
+    @Column(nullable = false)
     private double preco;
 
-    @Positive(message = "Quantidade dev ser")
 
+    @Column(name = "quantidade_produto")
+    @PositiveOrZero(message = "A quantidade não pode ser negativa!")
     private int quantidade;
 
 
