@@ -1,6 +1,6 @@
 package com.weg.atividadeJPA.mapper;
-import com.weg.atividadeJPA.dto.CategoriaRequisicaoDTO;
-import com.weg.atividadeJPA.dto.CategoriaRespostaDTO;
+import com.weg.atividadeJPA.dto.categoria.CategoriaRequisicaoDTO;
+import com.weg.atividadeJPA.dto.categoria.CategoriaRespostaDTO;
 import com.weg.atividadeJPA.model.Categoria;
 import org.springframework.stereotype.Component;
 @Component

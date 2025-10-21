@@ -1,6 +1,6 @@
 package com.weg.atividadeJPA.service;
-import com.weg.atividadeJPA.dto.CategoriaRequisicaoDTO;
-import com.weg.atividadeJPA.dto.CategoriaRespostaDTO;
+import com.weg.atividadeJPA.dto.categoria.CategoriaRequisicaoDTO;
+import com.weg.atividadeJPA.dto.categoria.CategoriaRespostaDTO;
 import com.weg.atividadeJPA.exception.CategoriaNaoExisteException;
 import com.weg.atividadeJPA.exception.EntidadeJaExisteException;
 import com.weg.atividadeJPA.mapper.CategoriaMapper;

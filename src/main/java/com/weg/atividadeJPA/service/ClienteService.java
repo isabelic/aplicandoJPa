@@ -1,6 +1,6 @@
 package com.weg.atividadeJPA.service;
-import com.weg.atividadeJPA.dto.ClienteRequisicaoDTO;
-import com.weg.atividadeJPA.dto.ClienteRespostaDTO;
+import com.weg.atividadeJPA.dto.cliente.ClienteRequisicaoDTO;
+import com.weg.atividadeJPA.dto.cliente.ClienteRespostaDTO;
 import com.weg.atividadeJPA.exception.ClienteNaoExisteException;
 import com.weg.atividadeJPA.exception.EntidadeJaExisteException;
 import com.weg.atividadeJPA.mapper.ClienteMapper;

@@ -1,4 +1,4 @@
-package com.weg.atividadeJPA.dto;
+package com.weg.atividadeJPA.dto.cliente;
 import jakarta.validation.constraints.NotBlank;
 public record ClienteRequisicaoDTO(
 

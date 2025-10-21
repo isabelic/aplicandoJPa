@@ -1,6 +1,6 @@
 package com.weg.atividadeJPA.mapper;
-import com.weg.atividadeJPA.dto.ClienteRequisicaoDTO;
-import com.weg.atividadeJPA.dto.ClienteRespostaDTO;
+import com.weg.atividadeJPA.dto.cliente.ClienteRequisicaoDTO;
+import com.weg.atividadeJPA.dto.cliente.ClienteRespostaDTO;
 import com.weg.atividadeJPA.model.Cliente;
 import org.springframework.stereotype.Component;
 
