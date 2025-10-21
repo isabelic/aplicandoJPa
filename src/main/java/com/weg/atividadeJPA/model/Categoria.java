@@ -28,4 +28,9 @@ public class Categoria {
 
     @Column(length = 100, nullable = false)
     private String descricao;
+
+    public Categoria( String nome, String descricao) {
+        this.nome = nome;
+        this.descricao = descricao;
+    }
 }

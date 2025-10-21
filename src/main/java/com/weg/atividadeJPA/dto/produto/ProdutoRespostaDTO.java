@@ -1,4 +1,4 @@
-package com.weg.atividadeJPA.dto;
+package com.weg.atividadeJPA.dto.produto;
 
 public record ProdutoRespostaDTO(
         Long id,

@@ -1,9 +1,8 @@
 package com.weg.atividadeJPA.mapper;
 
-import com.weg.atividadeJPA.dto.ProdutoRequisicaoDTO;
-import com.weg.atividadeJPA.dto.ProdutoRespostaDTO;
+import com.weg.atividadeJPA.dto.produto.ProdutoRequisicaoDTO;
+import com.weg.atividadeJPA.dto.produto.ProdutoRespostaDTO;
 import com.weg.atividadeJPA.model.Produto;
-import jakarta.validation.constraints.PositiveOrZero;
 import org.springframework.stereotype.Component;
 
 @Component

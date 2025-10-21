@@ -1,4 +1,4 @@
-package com.weg.atividadeJPA.dto;
+package com.weg.atividadeJPA.dto.produto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

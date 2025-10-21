@@ -1,8 +1,7 @@
 package com.weg.atividadeJPA.controller;
 
-import com.weg.atividadeJPA.dto.ProdutoRequisicaoDTO;
-import com.weg.atividadeJPA.dto.ProdutoRespostaDTO;
-import com.weg.atividadeJPA.model.Produto;
+import com.weg.atividadeJPA.dto.produto.ProdutoRequisicaoDTO;
+import com.weg.atividadeJPA.dto.produto.ProdutoRespostaDTO;
 import com.weg.atividadeJPA.service.ProdutoService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;

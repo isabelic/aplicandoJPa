@@ -2,6 +2,7 @@ package com.weg.atividadeJPA.model;
 
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -30,7 +31,9 @@ public class Cliente {
     @Column(nullable = false)
     private String telefone;
 
-    @Column(nullable = false, length = 11)
-    private int cpf;
+
+    @NotBlank(message = "CPF é obrigatório")
+    @Column(nullable = false, length = 11, unique = true)
+    private String cpf;
 
 }

@@ -1,16 +1,14 @@
 package com.weg.atividadeJPA.service;
 
-import com.weg.atividadeJPA.dto.ProdutoRequisicaoDTO;
-import com.weg.atividadeJPA.dto.ProdutoRespostaDTO;
+import com.weg.atividadeJPA.dto.produto.ProdutoRequisicaoDTO;
+import com.weg.atividadeJPA.dto.produto.ProdutoRespostaDTO;
 import com.weg.atividadeJPA.exception.ProdutoNaoExisteException;
 import com.weg.atividadeJPA.mapper.ProdutoMapper;
 import com.weg.atividadeJPA.model.Produto;
 import com.weg.atividadeJPA.repository.ProdutoRepository;
 import lombok.AllArgsConstructor;
-import org.aspectj.util.PartialOrder;
 import org.springframework.stereotype.Service;
 
-import java.net.PortUnreachableException;
 import java.util.List;
 
 @Service
