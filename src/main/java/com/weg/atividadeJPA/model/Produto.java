@@ -6,7 +6,8 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Positive;
 import jakarta.validation.constraints.PositiveOrZero;
 import lombok.*;
-import org.springframework.data.annotation.Id;
+import jakarta.persistence.Id;
+
 
 @Entity
 @AllArgsConstructor
@@ -14,7 +15,6 @@ import org.springframework.data.annotation.Id;
 @Setter
 @Getter
 @Table(name = "usuarios")
-
 public class Produto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
